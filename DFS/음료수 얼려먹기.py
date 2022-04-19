@@ -2,7 +2,7 @@ n, m = map(int, input().split())
 
 #2차원 리스트 맵 정보 생성
 graph = []
-for i in range(N):
+for i in range(n):
     graph.append(list(map(int,input())))
 
 #DFS로 특정 노드 방문후 인접노드까지 방문하기
