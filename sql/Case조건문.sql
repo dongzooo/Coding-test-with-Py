@@ -1,0 +1,6 @@
+SELECT 
+	(CASE
+		WHEN NAME LIKE '%DOG%' THEN 'O'
+        	WHEN NAME LIKE '%CAT%' THEN 'O'
+        	ELSE 'X'
+	END) AS 'DOGORCAT' 
